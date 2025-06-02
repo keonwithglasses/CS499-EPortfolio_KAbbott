@@ -4,7 +4,7 @@ Welcome to the Code Review section of my ePortfolio. I'm Keon Abbott, and this r
 
 ## What You'll Find Here
 
-This folder contains my code review transcript and a video link (if hosted externally due to file size limits). The video is a walkthrough of the following projects:
+This folder contains my code review transcript and a video. The video is a walkthrough of the following projects:
 
 1. **Software Design & Engineering**  
    - *Artifact*: `ExceptionsActivity_KAbbott.cpp`  
