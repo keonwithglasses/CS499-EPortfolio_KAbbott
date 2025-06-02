@@ -22,10 +22,6 @@ This folder contains my code review transcript and a video link (if hosted exter
 
 As a Deaf developer, I presented this review in ASL to reflect my communication style and bring accessibility to technical presentations. The transcript (`CS 499_Transcript_KAbbott.docx`) is included for anyone who prefers or needs a written version.
 
-## External Video Link
-
-> [Insert your Loom, YouTube, or Vimeo link here if the video is hosted externally]
-
 ---
 
 This README helps reviewers understand my coding approach, improvements made, and how these projects align with course outcomes in software engineering, algorithms, and database design.
