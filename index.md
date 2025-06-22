@@ -1,12 +1,69 @@
-# Welcome to My CS 499 Capstone Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keon Abbott | CS 499 ePortfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+    }
+    main {
+      padding: 2em;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0.5em 0;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #007acc;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Keon Abbott</h1>
+    <p>CS 499 Capstone ePortfolio</p>
+  </header>
 
-Hi, I am Keon Abbott, and this is my professional ePortfolio for the CS 499 Capstone course at SNHU.
+  <main>
+    <section>
+      <h2>Welcome</h2>
+      <p>Hi, I'm Keon. This is my professional ePortfolio showcasing my enhancements in software engineering, algorithms, and databases as part of my CS 499 Capstone project. These projects represent the skills I've developed and my journey as a future software engineer with a passion for accessibility and aerospace.</p>
+    </section>
 
-This site showcases enhancements to three key projects I have worked on during my time in the Computer Science program:
-- **Software Design & Engineering**: Secure Coding (CS 405)
-- **Algorithms & Data Structures**: Q-Learning Treasure Hunt (CS 370)
-- **Databases**: Travlr Getaways Full Stack App (CS 465)
-
-These projects reflect my growth in full-stack development, secure system design, and algorithmic thinking. I am especially focused on building accessible, scalable, and real-world solutions as I pursue a future in aerospace engineering and beyond.
-
-Stay tuned for more sections and updates coming soon!
+    <nav>
+      <h2>Explore My Work</h2>
+      <ul>
+        <li><a href="code-review/index.html">Code Review Video</a></li>
+        <li><a href="artifacts/software-design/index.html">Software Design Artifact</a></li>
+        <li><a href="artifacts/algorithms/index.html">Algorithms & Data Structures Artifact</a></li>
+        <li><a href="artifacts/databases/index.html">Databases Artifact</a></li>
+        <li><a href="self-assessment/index.html">Professional Self-Assessment</a></li>
+      </ul>
+    </nav>
+  </main>
+</body>
+</html>
