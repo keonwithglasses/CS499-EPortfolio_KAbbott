@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\keona\\OneDrive\\Documents\\updatedfolderprojet\\ExceptionsActivity_KAbbott\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9083F17-C1B1-48DD-B0A5-06D64B84EF54}|ExceptionsActivity_KAbbott.vcxproj|C:\\Users\\keona\\OneDrive\\Documents\\updatedfolderprojet\\ExceptionsActivity_KAbbott\\ExceptionsActivity_KAbbott.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9083F17-C1B1-48DD-B0A5-06D64B84EF54}|ExceptionsActivity_KAbbott.vcxproj|solutionrelative:ExceptionsActivity_KAbbott.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExceptionsActivity_KAbbott.cpp",
+              "DocumentMoniker": "C:\\Users\\keona\\OneDrive\\Documents\\updatedfolderprojet\\ExceptionsActivity_KAbbott\\ExceptionsActivity_KAbbott.cpp",
+              "RelativeDocumentMoniker": "ExceptionsActivity_KAbbott.cpp",
+              "ToolTip": "C:\\Users\\keona\\OneDrive\\Documents\\updatedfolderprojet\\ExceptionsActivity_KAbbott\\ExceptionsActivity_KAbbott.cpp",
+              "RelativeToolTip": "ExceptionsActivity_KAbbott.cpp",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-29T00:59:16.785Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
