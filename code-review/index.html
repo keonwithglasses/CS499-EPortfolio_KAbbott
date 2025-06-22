@@ -5,40 +5,92 @@
     <title>Code Review | Keon Abbott ePortfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 2em auto;
-            padding: 0 1em;
-            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
             color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1.5em;
+            text-align: center;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
 
         h1 {
             color: #2c3e50;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .section {
+            margin-bottom: 2em;
         }
 
         a {
             color: #007acc;
-            text-decoration: none;
+            font-weight: bold;
         }
 
             a:hover {
                 text-decoration: underline;
             }
+
+        .button-link {
+            display: inline-block;
+            padding: 0.6em 1.2em;
+            margin: 0.5em 0;
+            background-color: #007acc;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+            .button-link:hover {
+                background-color: #005f99;
+            }
     </style>
 </head>
 <body>
-    <h1>Code Review</h1>
-    <p>Hey there — I'm Keon Abbott, and this is my code review for the CS 499 Capstone. In the video below, I walk through the original code for each artifact, talk through the planned enhancements, and explain how the improvements align with the five core course outcomes.</p>
+    <header>
+        <h1>Code Review</h1>
+        <p>CS 499 Capstone – Keon Abbott</p>
+    </header>
 
-    <p>Because accessibility matters — especially to me — I’ve also included a <strong>written transcript</strong> of the video. Whether you're Deaf, hard of hearing, or just prefer reading, it's all here so no one gets left behind.</p>
+    <main>
+        <div class="section">
+            <p>Hi, I’m Keon — welcome to the code review section of my ePortfolio. In the video below, I walk through three projects that I’ve enhanced for the capstone. I break down what the code originally did, where it could be improved, and how my changes align with the program outcomes.</p>
 
-    <p><strong>Video Walkthrough:</strong></p>
-    <p><a href="KACodeReview.mp4" target="_blank">Watch the Code Review Video</a></p>
+            <p>Accessibility is important to me, especially as someone who is Deaf. That’s why I’ve included a full transcript for this video — because everyone deserves access to the content, no matter how they experience it.</p>
+        </div>
 
-    <p><strong>Transcript:</strong></p>
-    <p><a href="CS 499_Transcript_KAbbott.docx" target="_blank">Download Transcript (DOCX)</a></p>
+        <div class="section">
+            <h2>📹 Video Walkthrough</h2>
+            <a class="button-link" href="KACodeReview.mp4" target="_blank">Watch Code Review Video</a>
+        </div>
 
-    <p>Thanks for taking the time to check it out!</p>
+        <div class="section">
+            <h2>📝 Transcript</h2>
+            <a class="button-link" href="CS 499_Transcript_KAbbott.docx" target="_blank">Download Transcript (DOCX)</a>
+        </div>
+
+        <div class="section">
+            <p>Thanks for checking it out! Feel free to explore the rest of my ePortfolio to see how these enhancements came to life.</p>
+        </div>
+    </main>
 </body>
 </html>
