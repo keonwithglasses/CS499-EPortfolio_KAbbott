@@ -1,68 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Code Review | Keon Abbott ePortfolio</title>
+    <link rel="stylesheet" href="../assets/style.css" />
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f4f8;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-
-        header {
-            background-color: #2c3e50;
-            color: white;
-            padding: 1.5em;
-            text-align: center;
+        .banner {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 2em;
         }
 
         main {
             max-width: 900px;
             margin: 2em auto;
             padding: 2em;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
         }
-
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 0.5em;
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
-        .section {
-            margin-bottom: 2em;
-        }
-
-        a {
-            color: #007acc;
-            font-weight: bold;
-        }
-
-            a:hover {
-                text-decoration: underline;
-            }
 
         .button-link {
             display: inline-block;
             padding: 0.6em 1.2em;
             margin: 0.5em 0;
-            background-color: #007acc;
-            color: white;
+            background-color: #445c3c;
+            color: #fff;
             border-radius: 5px;
             text-decoration: none;
+            transition: background-color 0.3s ease;
         }
 
             .button-link:hover {
-                background-color: #005f99;
+                background-color: #2e3f2a;
             }
+
+        h2 {
+            margin-top: 2em;
+        }
     </style>
 </head>
 <body>
@@ -72,25 +48,35 @@
     </header>
 
     <main>
-        <div class="section">
-            <p>Hi, I’m Keon — welcome to the code review section of my ePortfolio. In the video below, I walk through three projects that I’ve enhanced for the capstone. I break down what the code originally did, where it could be improved, and how my changes align with the program outcomes.</p>
+        <img src="../images/codereviewbanner.png" alt="Refinement Plan and Code Review Banner" class="banner" />
 
-            <p>Accessibility is important to me, especially as someone who is Deaf. That’s why I’ve included a full transcript for this video — because everyone deserves access to the content, no matter how they experience it.</p>
-        </div>
+        <section>
+            <p>
+                Welcome to the code review section of my ePortfolio. In this video, I walk through the three enhanced projects I selected for my CS 499 Capstone. I explain the original functionality of each artifact, discuss the reasoning behind my improvements, and show how these updates align with SNHU’s program outcomes.
+            </p>
+            <p>
+                As a Deaf software engineer, accessibility isn’t just something I consider — it’s something I live. That's why I’ve included a full transcript to go along with the video. Whether you're watching, reading, or both, the goal is the same: clear, accessible communication.
+            </p>
+        </section>
 
-        <div class="section">
-            <h2>📹 Video Walkthrough</h2>
-            <a class="button-link" href="KACodeReview.mp4" target="_blank">Watch Code Review Video</a>
-        </div>
+        <section>
+            <h2>Video Walkthrough</h2>
+            <a class="button-link" href="KACodeReview.mp4" target="_blank">Watch the Code Review Video</a>
+        </section>
 
-        <div class="section">
-            <h2>📝 Transcript</h2>
-            <a class="button-link" href="CS 499_Transcript_KAbbott.docx" target="_blank">Download Transcript (DOCX)</a>
-        </div>
+        <section>
+            <h2>Transcript</h2>
+            <p>If you prefer or need written content, feel free to download the transcript here:</p>
+            <a class="button-link" href="CS%20499_Transcript_KAbbott.docx" target="_blank">Download Transcript (DOCX)</a>
+        </section>
 
-        <div class="section">
-            <p>Thanks for checking it out! Feel free to explore the rest of my ePortfolio to see how these enhancements came to life.</p>
-        </div>
+        <section>
+            <p>Thank you for exploring this section. The review ties directly into the rest of my work, so feel free to keep navigating through my portfolio.</p>
+        </section>
     </main>
+
+    <footer>
+        <p>&copy; 2025 Keon Abbott</p>
+    </footer>
 </body>
 </html>
