@@ -1,23 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Algorithms & Data Structures Artifact | Keon Abbott</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 1.5em; background: #f4f4f4; color: #333; }
-    header { background: #333; color: white; padding: 1em; text-align: center; }
-    main { max-width: 800px; margin: auto; background: white; padding: 2em; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    a { color: #007acc; }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algorithms & Data Structures | Keon Abbott ePortfolio</title>
+    <link rel="stylesheet" href="../../assets/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Algorithms & Data Structures Artifact</h1>
-    <p><a href="/CS499-EPortfolio_KAbbott/">Back to Home</a></p>
-  </header>
-  <main>
-    <p>Coming soon: content for algorithms & data structures artifact.</p>
-  </main>
+    <header>
+        <h1>Algorithms & Data Structures</h1>
+        <p>CS 499 Capstone – Artifact Two</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Artifact Overview</h2>
+            <p>
+                This artifact is a Python-based Q-learning project that simulates a treasure hunt inside a maze. It was originally developed during my AI coursework and significantly enhanced for this capstone. I selected this project because it captures the logic-heavy, decision-making aspect of algorithms and ties directly into reinforcement learning concepts that fascinate me.
+            </p>
+            <p>
+                In the enhancement process, I focused on cleaning up the core Q-learning loop, improving readability, and adding explanatory comments that break down the logic clearly — not just for others, but for me to revisit later. You’ll also notice the added training output and episode tracking logic, which helped me tune performance more effectively and validate that the agent was actually learning, not just stumbling around.
+            </p>
+        </section>
+
+        <section>
+            <h2>In Action</h2>
+            <p>
+                You can actually watch this agent learn and evolve in real time in my
+                <a href="../../code-review/index.html" target="_blank">Code Review video</a>. I talk through the logic and show what happens as the agent explores, fails, and eventually succeeds at consistently finding the treasure.
+            </p>
+            <img src="Treasure1.png" alt="Q-learning Treasure Hunt Training Output" style="width:100%; max-width:800px; margin: 1em 0;" />
+            <img src="Treasure2.png" alt="Agent Successfully Navigating the Maze" style="width:100%; max-width:800px; margin: 1em 0;" />
+        </section>
+
+        <section>
+            <h2>Enhancements and Reflection</h2>
+            <p>
+                This wasn't just about writing functional code. I really took time to revisit the reinforcement loop, improve the training feedback, and structure the experience buffer in a way that made it easier to test and debug. I also paid attention to how the agent was initialized, how actions were selected, and how performance data was logged.
+            </p>
+            <p>
+                From a data structures perspective, I used arrays, dictionaries, and matrix operations to track state, reward, and transitions. Reinforcement learning is abstract at first, but once I saw it work in a project like this, it clicked — and I knew this would be the right choice for my Algorithms & Data Structures artifact.
+            </p>
+        </section>
+
+        <section>
+            <h2>Project Files</h2>
+            <p>
+                The full project, including the enhanced Jupyter Notebook and supporting Python files, is available in the unzipped folder inside this directory. It’s fully commented and ready to explore.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Keon Abbott</p>
+    </footer>
 </body>
 </html>
