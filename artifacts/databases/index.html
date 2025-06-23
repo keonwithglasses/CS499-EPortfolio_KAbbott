@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Databases Artifact | Keon Abbott</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 1.5em; background: #f4f4f4; color: #333; }
-    header { background: #333; color: white; padding: 1em; text-align: center; }
-    main { max-width: 800px; margin: auto; background: white; padding: 2em; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    a { color: #007acc; }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Databases | Keon Abbott ePortfolio</title>
+    <link rel="stylesheet" href="../../assets/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Databases Artifact</h1>
-    <p><a href="/CS499-EPortfolio_KAbbott/">Back to Home</a></p>
-  </header>
-  <main>
-    <p>Coming soon: content for databases artifact.</p>
-  </main>
+    <header>
+        <h1>Databases</h1>
+        <p>CS 499 Capstone – Keon Abbott</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Artifact Overview</h2>
+            <p>
+                For the databases category, I chose to enhance the backend of my <strong>Travlr Getaways</strong> full-stack app from CS 340. This web app helps users browse and manage travel listings stored in a MongoDB database. Originally, the API worked — but it lacked real polish. For my enhancement, I refactored the Express backend to include input validation, cleaner error handling, and a better search experience using case-insensitive trip code matching.
+            </p>
+            <p>
+                These changes may seem small, but they go a long way in making the app more robust and usable. I also tightened up the logic to ensure all trip creation fields are properly validated before anything hits the database. This helped reinforce my understanding of clean, secure API design and how to better protect data in a real-world app.
+            </p>
+        </section>
+
+        <section>
+            <h2>What I Worked On</h2>
+            <p>
+                I cleaned up the core routes — GET, POST, PUT, DELETE — in the `trips.js` file. One of the more interesting improvements was switching the trip code search to use a regular expression that allows for case-insensitive matching, so users aren’t blocked if they type "NYC01" instead of "nyc01". I also added logic to reject incomplete requests and give meaningful error messages back to the client.
+            </p>
+            <p>
+                Here’s what the updated code looks like:
+            </p>
+            <img src="../../images/databases/trips1.png" alt="Updated GET and POST route logic" style="width:100%; margin-bottom: 1em; border-radius: 8px;" />
+            <img src="../../images/databases/trips2.png" alt="Updated PUT and DELETE route logic" style="width:100%; border-radius: 8px;" />
+        </section>
+
+        <section>
+            <h2>Reflection</h2>
+            <p>
+                This wasn’t just about cleaner code — it was about thinking through the user experience from the backend. These enhancements helped me approach database logic more defensively while also thinking like a user: what happens when someone makes a mistake or types something off? How should the app respond? Small things like validating fields and clear errors go a long way in building trust in a tool.
+            </p>
+            <p>
+                I’ve bundled the full updated source code in the folder for this section if you'd like to take a closer look.
+            </p>
+        </section>
+    </main>
 </body>
 </html>
+
